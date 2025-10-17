@@ -380,7 +380,7 @@ async function checkMerge() {
             showToast(getRandomMessage(NEW_DISCOVERY_MESSAGES, result));
             discoveries.push(result);
             discoveryCount++;
-            score += 60; // Base 10 + 50 for new discovery
+            score += 110; // Base 10 + 50 for new discovery
         } else {
             showToast(getRandomMessage(REPEAT_DISCOVERY_MESSAGES, result));
             score += 10;
